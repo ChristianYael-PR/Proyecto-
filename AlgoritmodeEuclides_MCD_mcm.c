@@ -2,14 +2,14 @@
 
 int main() {
     int a, b;
-    printf("Ingrese el primer número: ");
+    printf("Ingrese el primer nÃºmero: ");
     scanf("%d", &a);
-    printf("Ingrese el segundo número: ");
+    printf("Ingrese el segundo nÃºmero: ");
     scanf("%d", &b);
 
     int dividendo, divisor, cociente, residuo;
 
-    printf("\nCálculo del Máximo Común Divisor (MCD):\n");
+    printf("\nCÃ¡lculo del MÃ¡ximo ComÃºn Divisor (MCD):\n");
     printf("----------------------------------------\n");
 
     // Algoritmo de Euclides para calcular el MCD (a = b (q) + r . . .)
@@ -26,18 +26,17 @@ int main() {
         divisor = residuo;
     }
 
-    int MCD = dividendo; // El último divisor es el MCD
+    int MCD = dividendo; // El Ãºltimo divisor es el MCD
 
-    printf("\nEl Máximo Común Divisor (MCD) de %d y %d es: %d\n", a, b, MCD);
+    printf("\nEl MÃ¡ximo ComÃºn Divisor (MCD) de %d y %d es: %d\n", a, b, MCD);
 
-    printf("\nCálculo del Mínimo Común Múltiplo (mcm):\n");
+    printf("\nCÃ¡lculo del MÃ­nimo ComÃºn MÃºltiplo (mcm):\n");
     printf("---------------------------------------\n");
 
-    int mcm = (a * b) / MCD; // Cálculo del mcm utilizando la fórmula mencionada
+    int mcm = (a * b) / MCD; // CÃ¡lculo del mcm utilizando la fÃ³rmula mencionada
 
     printf("[%d , %d] = (%d * %d) / %d\n", a, b, a, b, MCD);
-    printf("El Mínimo Común Múltiplo (mcm) de %d y %d es: %d\n", a, b, mcm);
+    printf("El MÃ­nimo ComÃºn MÃºltiplo (mcm) de %d y %d es: %d\n", a, b, mcm);
 
     return 0;
 }
-
