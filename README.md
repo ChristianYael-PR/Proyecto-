@@ -1,6 +1,6 @@
-# Proyecto - Equipo 1 - Matemática Discretas
+# Proyecto - Equipo 1 - Matemática Discretas.
 <h1>Algoritmo de Euclides para determinar Máximo Común Divisior (MCD) y Mínimo Común Múltiplo (mcm).<h1><br>
-El Algoritmo de Euclides es un método o procedimiento que permite sistematizar la búsqueda del Máximo Común Divisor (MCD) de dos números enteros. También se le llama “método de las divisiones sucesivas”.
+<p aling=justify>El Algoritmo de Euclides es un método o procedimiento que permite sistematizar la búsqueda del Máximo Común Divisor (MCD) de dos números enteros. También se le llama “método de las divisiones sucesivas”.
 Dados los números enteros a y b, denotdado como (a, b), con a ≥ b y b ≠ 0, se desea encontrar los divisores comunes de ambos. Se realiza la división entera entre ellos, de donde se obtienen los enteros q1 y , r1 cociente y residuo, respectivamente. Esto es: a = b (q1) + r1 , (0 ≤ r1 < b). <br>
 
 Como todo divisor de a y de b, divide a r1 (Propiedad 4) y todo divisor de b y de r1 divide a a
@@ -12,9 +12,9 @@ b (Propiedad 3), la búsqueda se reduce a hallar los divisores comunes de r1 y d
 Así, realizando “divisiones sucesivas”, utilizando el resto como nuevo divisor, se llegará a un residuo
 nulo. <br>
 
-a = b (q1) + r1 , (0 ≤ r1 < b)
-b = r1 (q2) + r2 , (0 ≤ r2 < r1)
-r1 = r2 (q3) + r3 , (0 ≤ r3 < r2)
+a = b (q1) + r1 , (0 ≤ r1 < b) <br>
+b = r1 (q2) + r2 , (0 ≤ r2 < r1) <br> 
+r1 = r2 (q3) + r3 , (0 ≤ r3 < r2) <br>
 .
 .
 .
@@ -27,7 +27,7 @@ los divisores de rn, siendo rn el último residuo no nulo de las divisiones suce
 Resultan así, las conclusiones del Algoritmo de Euclides: <br>
 Los divisores comunes de dos números enteros a y b, con a ≥ b y b ≠ 0, son los divisores del último residuo no nulo, de las sucesivas divisiones entre a y b, y los restos. <br>
 
-Para poder determinar el Mínimo Común Múltiplo (mcm), dados los números enteros a y b, denotado como [a, b], se necesita multiplicar los números enteros a y b, y dividirse en el Máximo Común Divisior (MCD). <br>
+Para poder determinar el Mínimo Común Múltiplo (mcm), dados los números enteros a y b, denotado como [a, b], se necesita multiplicar los números enteros a y b, y dividirse en el Máximo Común Divisior (MCD). </p> <br>
 
 [a , b] = a * b / (a , b) (MCD) <br>
 
@@ -55,7 +55,7 @@ Por ejemplo: El Mínimo Común Múltiplo (mcm) de 230 y 70 es: 1610. <br>
 
 En resumen, los valores de entrada son los dos números ingresados por el usuario, y los valores de salida son las ecuaciones y los resultados del cálculo del MCD y el mcm. <br>
 
-<h3>Instrucciones de ejecución del código en lenguaje C del Algoritmo de Euclides para determinar Máximo Común Divisior (MCD) y Mínimo Común Múltiplo (mcm).<h3><br>
+<h2>Instrucciones de ejecución del código en lenguaje C del Algoritmo de Euclides para determinar Máximo Común Divisior (MCD) y Mínimo Común Múltiplo (mcm).<h2><br>
 
 Para compilar y ejecutas, se tienen que seguir los siguientes pasos: <br>
 - Asegurarse de tener un compilador de C instalado en su sistema o de tener una página de internet confiable. <br>
