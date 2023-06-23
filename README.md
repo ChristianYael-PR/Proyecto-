@@ -31,7 +31,7 @@ Para poder determinar el Mínimo Común Múltiplo (mcm), dados los números ente
 
 [a , b] = a * b / (a , b) (MCD) <br>
 
-<h1>Ejemplo con valores de entrada y salidas.<h1><br>
+<h2>Ejemplo con valores de entrada y salidas.<h2><br>
 
 Como entrada el usuario debe ingresar dos números enteros, a y b, que como ejemplo pondremos a = 230 y b = 70. <br>
 
@@ -55,7 +55,7 @@ Por ejemplo: El Mínimo Común Múltiplo (mcm) de 230 y 70 es: 1610. <br>
 
 En resumen, los valores de entrada son los dos números ingresados por el usuario, y los valores de salida son las ecuaciones y los resultados del cálculo del MCD y el mcm. <br>
 
-<h1>Instrucciones de ejecución del código en lenguaje C del Algoritmo de Euclides para determinar Máximo Común Divisior (MCD) y Mínimo Común Múltiplo (mcm).<h1><br>
+<h3>Instrucciones de ejecución del código en lenguaje C del Algoritmo de Euclides para determinar Máximo Común Divisior (MCD) y Mínimo Común Múltiplo (mcm).<h3><br>
 
 Para compilar y ejecutas, se tienen que seguir los siguientes pasos: <br>
 - Asegurarse de tener un compilador de C instalado en su sistema o de tener una página de internet confiable. <br>
