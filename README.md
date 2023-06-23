@@ -57,7 +57,7 @@ En resumen, los valores de entrada son los dos números ingresados por el usuari
 
 <h2>Instrucciones de ejecución del código en lenguaje C del Algoritmo de Euclides para determinar Máximo Común Divisior (MCD) y Mínimo Común Múltiplo (mcm).</h2>
 
-Para compilar y ejecutas, se tienen que seguir los siguientes pasos: <br>
+Para compilar y ejecutar, se tienen que seguir los siguientes pasos: <br>
 - Asegurarse de tener un compilador de C instalado en su sistema o de tener una página de internet confiable. <br>
 
 - Descargar el archivo AlgoritmodeEuclides_MCD_mcm.c desde este repositorio. <br>
