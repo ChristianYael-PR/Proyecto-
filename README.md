@@ -27,7 +27,7 @@ los divisores de rn, siendo rn el último residuo no nulo de las divisiones suce
 Resultan así, las conclusiones del Algoritmo de Euclides: <br>
 Los divisores comunes de dos números enteros a y b, con a ≥ b y b ≠ 0, son los divisores del último residuo no nulo, de las sucesivas divisiones entre a y b, y los restos. <br>
 
-Para poder determinar el Mínimo Común Múltiplo (mcm), dados los números enteros a y b, denotado como [a, b], se necesita multiplicar los números enteros a y b, y dividirse en el Máximo Común Divisior (MCD). </p> <br>
+Para poder determinar el Mínimo Común Múltiplo (mcm), dados los números enteros a y b, denotado como [a, b], se necesita multiplicar los números enteros a y b, y dividirse en el Máximo Común Divisior (MCD). </p>
 
 [a , b] = a * b / (a , b) (MCD) <br>
 
