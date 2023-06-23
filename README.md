@@ -1,5 +1,5 @@
 # Proyecto - Equipo 1 - Matemática Discretas.
-<h1>Algoritmo de Euclides para determinar Máximo Común Divisior (MCD) y Mínimo Común Múltiplo (mcm).</h1>h1><br>
+<h1>Algoritmo de Euclides para determinar Máximo Común Divisior (MCD) y Mínimo Común Múltiplo (mcm).</h1><br>
 <p aling=justify>El Algoritmo de Euclides es un método o procedimiento que permite sistematizar la búsqueda del Máximo Común Divisor (MCD) de dos números enteros. También se le llama “método de las divisiones sucesivas”.
 Dados los números enteros a y b, denotdado como (a, b), con a ≥ b y b ≠ 0, se desea encontrar los divisores comunes de ambos. Se realiza la división entera entre ellos, de donde se obtienen los enteros q1 y , r1 cociente y residuo, respectivamente. Esto es: a = b (q1) + r1 , (0 ≤ r1 < b). <br>
 
@@ -15,9 +15,9 @@ nulo. <br>
 a = b (q1) + r1 , (0 ≤ r1 < b) <br>
 b = r1 (q2) + r2 , (0 ≤ r2 < r1) <br> 
 r1 = r2 (q3) + r3 , (0 ≤ r3 < r2) <br>
-.
-.
-.
+. <br>
+. <br>
+. <br>
 rn-1 = rn (qn+1) + 0
 (Hasta que ya no haya residuos, y llegue a 0 residuos) (El último divisor es el MCD)<br>
 
