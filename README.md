@@ -43,7 +43,7 @@ El programa mostrará en la consola los siguientes resultados: <br>
 Se imprimirá una lista de ecuaciones que representan el proceso de cálculo del MCD utilizando el algoritmo de Euclides.
 Por ejemplo: 230 = 70 (3) + 20. <br>
 
--El Máximo Común Divisor (MCD):
+- El Máximo Común Divisor (MCD):
 Se imprimirá el valor del MCD de los dos números ingresados.
 Por ejemplo: El Máximo Común Divisor (MCD) de 230 y 70 es: 10. <br>
 
